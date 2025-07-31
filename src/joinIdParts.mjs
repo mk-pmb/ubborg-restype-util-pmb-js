@@ -3,7 +3,7 @@
 import is from 'typechecks-pmb';
 import describe from 'concise-value-preview-pmb';
 
-import specialChars from './specialChars';
+import specialChars from './specialChars.mjs';
 
 function joinIdParts(i, p) {
   if (!(i || false).length) { throw new Error('idProp cannot be empty'); }
