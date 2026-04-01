@@ -5,10 +5,8 @@
 
 const spc = {
   idPropListSep: '|',
-  chainLinks: {
-    back: '«',
-    fwd: '»',
-  },
+  chainLinks: { back: '«', fwd: '»' },
+  wideChainLinks: { back: ' «— ', fwd: ' —» ' },
 };
 
 export default spc;
